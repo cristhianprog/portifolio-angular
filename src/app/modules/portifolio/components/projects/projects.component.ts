@@ -13,11 +13,12 @@ import { DialogProjectsComponent } from '../dialog/dialog-projects/dialog-projec
 import { appService } from '../../services/app.service';
 import { enProjectsTranslate } from '../../enum/translate/projects/en-projects';
 import { ptProjectsTranslate } from '../../enum/translate/projects/pt-projects';
+import { MatTooltipModule } from '@angular/material/tooltip';
 
 @Component({
   selector: 'app-projects',
   standalone: true,
-  imports: [],
+  imports: [MatTooltipModule],
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.scss'
 })
@@ -46,16 +47,30 @@ export class ProjectsComponent {
       ]
     },
     {
-      src: 'assets/img/projects/vfull.png',
+      src: 'assets/img/projects/coffee.png',
       alt: '',
-      title: 'Linkedin',
+      title: 'Coffee Store',
       width: '100px',
       height: '51px',
-      description: '<p>Projeto em JAva feito para aprendimzagem e aperfeiçoamento de padrões de projetos utilizados atualmente em diversos locais tanto para projetos para mercado de trabalho.</p>',
+      description: '<p>Projeto desenvolvido em Angular 19 com as tecnologias e ferramentas mais atuais das últimas versões do Angular. Nesse projeto, desenvolvi uma aplicação onde é possível visualizar os produtos de uma loja de café e adicionar eles ao carrinho de compras. Ainda é possível visualizar o carrinho, adicionar mais itens ao carrinho e excluir os itens. (Informações mais completos no GitHub)</p>',
       links: [
         {
-          name: 'Conheça o Blog',
-          href: 'https://github.com/eder15720/workshopSpring3',
+          name: 'Conheça o Projeto',
+          href: 'https://coffee-store-cj.vercel.app',
+        },
+      ]
+    },
+    {
+      src: 'assets/img/projects/calculator.png',
+      alt: '',
+      title: 'Calculator',
+      width: '100px',
+      height: '51px',
+      description: '<p>Projeto iniciante onde todo programador já deve ter feito algum dia no início do seu aprendizado. O desafio era criar uma calculadora onde foram usados alguns conhecimentos no início da minha trajetória de programador. Decidi compartilhar para ajudar novos desenvolvedores e mostrar como resolvo até mesmo os mais simples desafios. (Informações mais completos no GitHub)</p>',
+      links: [
+        {
+          name: 'Conheça o Projeto',
+          href: 'https://calculator-angular-cj.vercel.app/3',
         },
       ]
     }
@@ -77,16 +92,30 @@ export class ProjectsComponent {
       ]
     },
     {
-      src: 'assets/img/projects/vfull.png',
+      src: 'assets/img/projects/coffee.png',
       alt: '',
-      title: 'Linkedin',
+      title: 'Coffee Store',
       width: '100px',
       height: '51px',
-      description: '<p>Projeto em JAva feito para aprendimzagem e aperfeiçoamento de padrões de projetos utilizados atualmente em diversos locais tanto para projetos para mercado de trabalho.</p>',
+      description: '<p>Project developed in Angular 19 with the most current technologies and tools from the latest versions of Angular. In this project, I developed an application where it is possible to view the products of a coffee shop and add them to the shopping cart. It is also possible to view the cart, add more items to the cart and delete items. (More complete information on GitHub)</p>',
       links: [
         {
-          name: 'Conheça o Blog',
-          href: 'https://github.com/eder15720/workshopSpring3',
+          name: 'Access projects',
+          href: 'https://coffee-store-cj.vercel.app',
+        },
+      ]
+    },
+    {
+      src: 'assets/img/projects/calculator.png',
+      alt: '',
+      title: 'Calculator',
+      width: '100px',
+      height: '51px',
+      description: '<p>A beginner´s project that every programmer must have done at some point in their early learning process. The challenge was to create a calculator that used some of the knowledge I had gained at the beginning of my career as a programmer. I decided to share it to help new developers and show how I solve even the simplest challenges.</p>',
+      links: [
+        {
+          name: 'Access projects',
+          href: 'https://calculator-angular-cj.vercel.app/',
         },
       ]
     }

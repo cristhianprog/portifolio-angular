@@ -3,7 +3,7 @@
     <ul>
         @for (item of arrayProjects(); track item) {
             <li>
-                <button (click)="openDialog(item)">
+                <button [matTooltip]="item.title.toString()" (click)="openDialog(item)" >
                     <img 
                     [src]="item.src" 
                     [alt]="item.alt" 
