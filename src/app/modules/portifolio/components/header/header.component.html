@@ -1,0 +1,73 @@
+<header>
+
+    <div class="languages">
+        <div [matTooltip]="tooltipPt" matTooltipPosition="above">
+            <img src="assets/icons/br.png" alt="Ícone PT" (click)="selectLanguage('pt')"/>
+        </div>
+
+        <div [matTooltip]="tooltipEn" matTooltipPosition="above">
+            <img src="assets/icons/eua.png" alt="Ícone EN" (click)="selectLanguage('en')"/>
+        </div>
+    </div>
+    
+    <div class="img-header" display="flex" justify-content="center" align-items="center">
+        <img src="assets/img/foto-cristhian.png" alt="Cristhian Jacques - Foto Perfil" width="130px" height="130px"
+        loading="eager" />
+
+        <h1> {{myName}} </h1>
+    </div>
+   
+
+    
+</header>
+
+<aside>
+    <div class="container">
+        <p>{{staks}}</p>
+        <p>{{locale}}</p>
+        
+        <p [innerHTML]="description">
+        </p>
+
+        
+        <nav>
+            <ul>
+                <li>
+
+                    <a [href]="this.pathResume" target="_blank" class="btn btn-primary">
+                        {{dResume}}
+                    </a>
+
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/cristhianjacques" target="_blank" class="btn btn-secondary">
+                        LinkedIn
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <section>
+            <figure>
+                <img src="assets/icons/whatsapp.svg" alt="Ícone para contato do whatsapp" width="22px" height="24px" />
+
+                <figcaption>
+                    <a href="https://api.whatsapp.com/send?phone=5551985719297&text=Contato" target="_blank">
+                        <strong>{{sendMessage}}</strong>
+                        <p>Whatsapp: (51) 9 8571-9297</p>
+                    </a>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="assets/icons/mail.svg" alt="Ícone para contato do e-mail" width="22px" height="24px" />
+
+                <figcaption>
+                    <a href="mailto:cristhianprog@gmail.com" target="_blank">
+                        <strong>{{sendEmail}} </strong>
+                        <p>E-mail: cristhianprog&#64;gmail.com</p>
+                    </a>
+                </figcaption>
+            </figure>
+        </section>
+    </div>
+</aside>

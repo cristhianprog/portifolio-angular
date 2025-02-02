@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="sub-container">
+        <img class="image-container" src="../../../../../assets/img/flags.png">
+        
+    
+        <div class="languages-container">
+            <h2>{{languages}}</h2>
+            <ul>
+                @for (item of arrayLanguage(); track item) {
+                    <li>
+                        <img [src]="item.src" [alt]="item.alt" loading="lazy" width="22px" height="24px"/>
+                        <label>{{item.level}}</label>
+                    </li>
+                }
+            </ul>
+            
+        </div>
+
+    </div>
+   
+   
+</div>

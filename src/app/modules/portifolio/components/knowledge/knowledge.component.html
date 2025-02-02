@@ -1,0 +1,10 @@
+<div class="container">
+    <h2>{{knowledge}}</h2>
+    <ul>
+        @for (item of arrayKnowledge(); track item) {
+            <li [matTooltip]="item.tooltip">
+                <img [src]="item.src" [alt]="item.alt" loading="lazy" width="22px" height="24px"/>
+            </li>
+        }
+    </ul>
+</div>
