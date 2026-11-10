@@ -1,52 +1,47 @@
-export const experiencesConst =  {
-    ptArrayExperiences: [
-        {
-            summary: {
-              strong: 'Analista de Sistemas',
-              p: 'Grupo Telecon RS | Abril 2022 - Atual'
-            },
-            text: '<p>Estou liderando o time de frontend de varios projetos e features. Enfrentando desafios de criar novas variações do sistema com layout e funcionalidades totalmente novas do sistema que ja estava em produção criando e melhorando a experiência do usuario. Para estes projetos, utilizamos o Scrum como metodologia ágil, o framework Angular 13, o Node.js e a biblioteca Electron.js para comunicação entre dispositivos externos. Devido a inovação e confiabilidade, ganhamos o prestigiado Prêmio Automação 2024 da GS1 Brasil - Associação Brasileira de Automação, onde tenho muito orgulho de fazer parte pois é o mais importante reconhecimento para automação comercial no Brasil.</p>'
-          },
-          {
-            summary: {
-              strong: 'Analista de Sistemas',
-              p: 'SKA Automação de Engenharias | Março 2021 - Maio 2022'
-            },
-            text: '<p>Durante o meu período na SKA Automação de Engenharias, participei da análise e levantamento de requisitos de clientes para novas soluções da empresa, onde eram feitas com Angular, TypeScript, Material Design e NodeJs. Desenvolvi automação para atualizar relatórios de gerenciamento de equipamentos de fábrica. OOP, Typescript e NodeJs foram usados ​​para criar o backend também.</p>'
-          },
-          {
-            summary: {
-              strong: 'Analista de Sistemas',
-              p: 'Ecodev | Abril 2019 - Março 2021'
-            },
-            text: '<p>Durante o meu período na Ecodev, atuei com análise de sistemas, correção de problemas, planejamento e desenvolvimento de projetos em Angular 8 voltados para CRM de call center, onde tive contato com Angular Material / Bootsrap, NodeJs e Banco de dados SQL server. Tive a oportunidade de trabalhar com serividores Asterix com PBX para chamadas VOIP e tambem tive um pouco de conhecimento em PHP usando Laravel para o backend.</p>'
-          },
-   
-    ],
+export const experiencesConst = {
+  ptArrayExperiences: [
+    {
+      summary: { strong: 'Desenvolvedor Full Stack', p: 'Senior Sistemas | Mai 2026 - Atual' },
+      text: '<p>Referência de Angular/frontend num time full stack que constrói do zero um SaaS multi-tenant de vendas imobiliárias, da venda à assinatura do contrato. Co-construí um fluxo de engenharia nativo em IA com Claude Code (CLAUDE.md versionado, agentes por papel, comandos customizados, hooks e MCP), sempre com revisão humana e o mesmo pipeline de CI. Entrego de 5 a 8 features por mês com cobertura de testes acima de 80%, e projetei e desenvolvi sozinho o motor de tags de templates de contrato. Stack: Angular 20/21 (zoneless, Signals), PrimeNG, Vitest, .NET 10, EF Core, MySQL, Redis.</p>'
+    },
+    {
+      summary: { strong: 'Desenvolvedor Sênior Full Stack', p: 'Prismatec | Ago 2025 - Jan 2026' },
+      text: '<p>Liderei de ponta a ponta o frontend da nova plataforma da empresa com Angular 20, Angular Material e testes com Jasmine. Implementei CI/CD com Azure Pipelines e desenvolvi serviços backend com .NET 9, Entity Framework e PostgreSQL, com APIs documentadas no Swagger. A solução otimizou o fluxo de pagamentos dos clientes.</p>'
+    },
+    {
+      summary: { strong: 'Desenvolvedor Frontend', p: 'Grupo Telecon RS | Abr 2022 - Ago 2025' },
+      text: '<p>Liderei o frontend de um novo self-checkout e de uma versão do PDV com telas touch e dois monitores, com comunicação serial em tempo real com balanças e leitores de código de barras (Angular, Node.js, Electron). Software em operação em 8 supermercados, com mais de 40 terminais. Participei como desenvolvedor frontend da solução de rastreabilidade e prevenção de perdas com códigos 2D que rendeu à empresa o Prêmio de Automação GS1 Brasil 2024.</p>'
+    },
+    {
+      summary: { strong: 'Desenvolvedor Frontend', p: 'SKA Automação de Engenharias | Mar 2021 - Mai 2022' },
+      text: '<p>Levantamento de requisitos com prototipação e desenvolvimento de dashboards de gestão de equipamentos industriais (Angular, Material Design) e APIs em Node.js. Um estudo de caso que conduzi aumentou em 30% a eficiência na geração de relatórios.</p>'
+    },
+    {
+      summary: { strong: 'Desenvolvedor Frontend', p: 'Ecodev | Abr 2019 - Mar 2021' },
+      text: '<p>Desenvolvi do zero o frontend de um CRM para call centers com Angular, Angular Material e Node.js, incluindo gestão de tickets, chamadas VoIP e dashboards analíticos. Também contribuí com APIs em Laravel (PHP) e na configuração de infraestrutura PBX com Asterisk.</p>'
+    },
+  ],
 
-    enArrayExperiences: [
-        {
-            summary: {
-                strong: 'Frontend Software Engineer',
-                p: 'Grupo Telecon RS | Apr 2022 - Current'
-              },
-              text: '<p>I&#8216m leading the frontend team for several projects and features. Facing the challenges of creating new variations of the system with a completely new layout and functionalities of the system that was already in production, creating and improving the user experience. For these projects, we use Scrum as an agile methodology, the Angular 13 framework, Node.js and the Electron.js library for communication between external devices. Due to innovation and reliability, we won the prestigious 2024 Automation Award from GS1 Brasil - Brazilian Automation Association, which I am very proud to be part of as it is the most important recognition for commercial automation in Brazil.</p>'
-            },
-            {
-              summary: {
-                strong: 'Software Engineer',
-                p: 'SKA Automação de Engenharias | Mar 2021 - May 2022'
-              },
-              text: '<p>During my time at SKA Automação de Engenharias, I participated in the analysis and gathering of customer requirements for the company&#8216s new solutions, which were made with Angular, TypeScript, Material Design and NodeJs. Developed automation to update factory equipment management reports. OOP, Typescript and NodeJs were used to create the backend as well.</p>'
-            },
-            {
-              summary: {
-                strong: 'Frontend Software Engineer',
-                p: 'Ecodev | Apr 2019 - Mar 2021'
-              },
-              text: '<p>During my time at Ecodev, I worked with systems analysis, problem correction, planning and development of projects in Angular 8 aimed at call center CRM, where I had contact with Angular Material / Bootstrap, NodeJs and SQL server database. I had the opportunity to work with Asterix servers with PBX for VOIP calls and I also had a little knowledge in PHP using Laravel for the backend.</p>'
-            },  
-    ],
+  enArrayExperiences: [
+    {
+      summary: { strong: 'Full Stack Developer', p: 'Senior Sistemas | May 2026 - Present' },
+      text: '<p>Angular/frontend reference on a full stack team building a greenfield multi-tenant SaaS for real estate sales, from the sales pipeline to contract signing. I co-built an AI-native engineering workflow with Claude Code (versioned CLAUDE.md, role-based agents, custom commands, hooks and MCP), always with human review and the same CI quality gates. I ship 5 to 8 features a month with test coverage above 80%, and designed and built the contract template tag engine end to end. Stack: Angular 20/21 (zoneless, Signals), PrimeNG, Vitest, .NET 10, EF Core, MySQL, Redis.</p>'
+    },
+    {
+      summary: { strong: 'Senior Full Stack Developer', p: 'Prismatec | Aug 2025 - Jan 2026' },
+      text: '<p>Led end-to-end frontend development of the new company platform with Angular 20, Angular Material and Jasmine unit tests. Set up CI/CD with Azure Pipelines and built backend services with .NET 9, Entity Framework and PostgreSQL, with REST APIs documented in Swagger. The solution streamlined customer payment flows.</p>'
+    },
+    {
+      summary: { strong: 'Frontend Developer', p: 'Grupo Telecon RS | Apr 2022 - Aug 2025' },
+      text: '<p>Led the frontend of a new self-checkout POS and a cashier POS with touch screens and dual monitors, with real-time serial communication with scales and barcode scanners (Angular, Node.js, Electron). Deployed across 8 supermarket stores with 40+ checkout terminals. Contributed as frontend developer to a 2D-code traceability and loss-prevention solution that earned the company the GS1 Brasil Automation Award 2024.</p>'
+    },
+    {
+      summary: { strong: 'Frontend Developer', p: 'SKA Automação de Engenharias | Mar 2021 - May 2022' },
+      text: '<p>Led requirements discovery through prototyping and built industrial equipment management dashboards (Angular, Material Design) with Node.js APIs. A case study I drove improved report generation efficiency by 30%.</p>'
+    },
+    {
+      summary: { strong: 'Frontend Developer', p: 'Ecodev | Apr 2019 - Mar 2021' },
+      text: '<p>Built the frontend of a call center CRM from scratch with Angular, Angular Material and Node.js, including ticket management, VoIP calls and analytics dashboards. Also contributed to Laravel (PHP) APIs and Asterisk PBX setup.</p>'
+    },
+  ],
 }
-  
-   	

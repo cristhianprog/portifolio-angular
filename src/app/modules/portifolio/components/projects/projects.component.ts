@@ -38,7 +38,7 @@ export class ProjectsComponent {
       title: 'Projetos GitHub',
       width: '100px',
       height: '51px',
-      description: '<p>Link do GitHb com a disponibilização de projetos/experiencias obtidas por meio de estudos em cursos que fiz para melhoria e aperfeiçoamento da linguagem.</p>',
+      description: '<p>Meus projetos públicos e estudos em Angular, .NET e desenvolvimento assistido por IA.</p>',
       links: [
         {
           name: 'Acessar projetos',
@@ -59,20 +59,6 @@ export class ProjectsComponent {
           href: 'https://coffee-store-cj.vercel.app',
         },
       ]
-    },
-    {
-      src: 'assets/img/projects/calculator.png',
-      alt: '',
-      title: 'Calculator',
-      width: '100px',
-      height: '51px',
-      description: '<p>Projeto iniciante onde todo programador já deve ter feito algum dia no início do seu aprendizado. O desafio era criar uma calculadora onde foram usados alguns conhecimentos no início da minha trajetória de programador. Decidi compartilhar para ajudar novos desenvolvedores e mostrar como resolvo até mesmo os mais simples desafios. (Informações mais completos no GitHub)</p>',
-      links: [
-        {
-          name: 'Conheça o Projeto',
-          href: 'https://calculator-angular-cj.vercel.app/3',
-        },
-      ]
     }
   ];
 
@@ -83,7 +69,7 @@ export class ProjectsComponent {
       title: 'GitHub Projects',
       width: '100px',
       height: '51px',
-      description: '<p>GitHub link with the availability of projects/experiences obtained through studies in courses I took to improve and perfect the language.</p>',
+      description: '<p>My public projects and experiments with Angular, .NET and AI-assisted development.</p>',
       links: [
         {
           name: 'Access projects',
@@ -97,25 +83,11 @@ export class ProjectsComponent {
       title: 'Coffee Store',
       width: '100px',
       height: '51px',
-      description: '<p>Project developed in Angular 19 with the most current technologies and tools from the latest versions of Angular. In this project, I developed an application where it is possible to view the products of a coffee shop and add them to the shopping cart. It is also possible to view the cart, add more items to the cart and delete items. (More complete information on GitHub)</p>',
+      description: '<p>A coffee shop storefront built with Angular 19 and modern Angular features (standalone components, Signals), with product listing and a full shopping cart flow. CI runs on GitHub Actions.</p>',
       links: [
         {
-          name: 'Access projects',
+          name: 'View project',
           href: 'https://coffee-store-cj.vercel.app',
-        },
-      ]
-    },
-    {
-      src: 'assets/img/projects/calculator.png',
-      alt: '',
-      title: 'Calculator',
-      width: '100px',
-      height: '51px',
-      description: '<p>A beginner´s project that every programmer must have done at some point in their early learning process. The challenge was to create a calculator that used some of the knowledge I had gained at the beginning of my career as a programmer. I decided to share it to help new developers and show how I solve even the simplest challenges.</p>',
-      links: [
-        {
-          name: 'Access projects',
-          href: 'https://calculator-angular-cj.vercel.app/',
         },
       ]
     }

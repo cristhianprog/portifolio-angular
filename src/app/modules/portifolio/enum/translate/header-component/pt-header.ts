@@ -1,9 +1,9 @@
 export enum ptHeaderTranslate{
     myName = 'Cristhian M. Jacques',
-    staks = 'Angular Sênior | Full-Stack Javascript | SQLSERVER | MONGODB',
-    locale = 'Porto Alegre - RS',
-    description = 'Com mais de 6 anos de experiência no desenvolvimento de soluções de software,<br> atuo tanto no frontend quanto no backend. Atualmente, sou especializado em Angular <br> para o frontend e Node.js no backend, criando aplicações web escaláveis e de alta performance. <br><br> Meu foco é entregar soluções eficientes, inovadoras e com excelente experiência do usuário.', 
-    dResume = 'Baixar Currículo',
+    staks = 'Engenheiro Frontend Sênior | Angular | .NET | Desenvolvimento assistido por IA',
+    locale = 'Porto Alegre, RS',
+    description = 'Engenheiro frontend especialista em Angular, com mais de 7 anos desenvolvendo aplicações web em produção e experiência full stack com .NET e Node.js. <br><br>Já construí sistemas de self-checkout e PDV para supermercados integrados a hardware e hoje trabalho numa plataforma SaaS desenvolvida com um fluxo estruturado de IA usando Claude Code, sempre com revisão humana e gates de qualidade.',
+        dResume = 'Baixar Currículo',
     sendMessage = 'Envie mensagem para:',
     sendEmail = 'Envie e-mail para:', 
     knowledge = 'Conhecimentos',

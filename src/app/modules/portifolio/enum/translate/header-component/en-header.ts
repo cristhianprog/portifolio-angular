@@ -1,9 +1,9 @@
 export enum enHeaderTranslate{
     myName = 'Cristhian M. Jacques',
-    staks = 'Angular Sênior | NodeJS | JavaScript ',
-    locale = 'Porto Alegre - RS',
-    description = 'With more than 6 years of experience developing software solutions, I work on both the front and backend. Currently, I specialize in Angular for the frontend and Node.js in the backend, <br>creating scalable, high-performance web applications. <br><br> My focus is to deliver efficient, innovative solutions with excellent user experience.',
-    dResume = 'Download Resume',
+    staks = 'Senior Frontend Engineer | Angular | .NET | AI-Assisted Development',
+    locale = 'Porto Alegre, Brazil',
+    description = 'Frontend engineer specialized in Angular, with 7+ years building production web applications and full stack experience in .NET and Node.js. <br><br>I have built supermarket self-checkout and POS systems integrated with hardware, and today I work on a SaaS platform built with a structured, AI-assisted workflow using Claude Code, always with human review and solid quality gates.',
+        dResume = 'Download Resume',
     sendMessage = 'Send message to:',
     sendEmail = 'Send email to:', 
     knowledge = 'Knowledge',
